@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap cdn for css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- bootstrap cdn for js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- media query links -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="576max.css">
+    <link rel="stylesheet" href="576min.css">
+    <link rel="stylesheet" href="768min.css">
+    <link rel="stylesheet" href="992min.css">
+    <link rel="stylesheet" href="1200min.css">
+</head>
+<body>
+    <section>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand me-5 pe-5 ms-5" href="main.html">
+                        <img src="https://static-assets.pratilipi.com/resource-all/image/ui2022/pratilipi_logo.png"
+                            alt="" height="40px">
+                        <span style="color: rgb(207, 9, 9);"><b>pustak</b></span>
+                    </a>
+
+                    <div class="dropdown ms-3 me-3">
+                        <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            English
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">বাংলা</a></li>
+                            <li><a class="dropdown-item" href="#">ગુજરાતી</a></li>
+                            <li><a class="dropdown-item" href="#">हिन्दी</a></li>
+                            <li><a class="dropdown-item" href="#">ಕನ್ನಡ</a></li>
+                            <li><a class="dropdown-item" href="#">മലയാളം</a></li>
+                            <li><a class="dropdown-item" href="#">मराठी</a></li>
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">ਪੰਜਾਬੀ</a></li>
+                        </ul>
+                    </div>
+
+                    <nav class="navbar navbar-light bg-light m-3">
+                        <div class="container-fluid">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="&#x1F50E; Search stories"
+                                    aria-label="Search">
+                            </form>
+                        </div>
+                    </nav>
+
+                    <button type="button" class="btn btn-primary position-relative me-5">
+                        <i class="fa-solid fa-bell"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            8+
+                        </span>
+                    </button>
+
+                    <div class="header1">
+                        <div class="collapse navbar-collapse ms-5 ps-5" id="navbarNavAltMarkup">
+                            <div class="tw-flex tw-items-center tw-ms-auto" data-v-cabc665e=""
+                                style="display: flex; gap: 0px 30px; margin-top: 10px;">
+                                <a href="main.html">
+                                    <div class="navbar-link" data-v-cabc665e=""><img src="https://static-assets.pratilipi.com/resource-all/image/ui2022/home-icon.svg" alt="home-icon" data-v-cabc665e="">
+                                        <p data-v-cabc665e="">
+                                            Home
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="category.html">
+                                    <div class="navbar-link" data-v-cabc665e=""><img src="https://static-assets.pratilipi.com/resource-all/image/ui2022/teal-explore-icon.svg" alt="explore-icon" data-v-cabc665e="">
+                                        <p data-v-cabc665e="">
+                                            Category
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="write.html">
+                                    <div class="navbar-link" data-v-cabc665e=""><img
+                                            src="https://static-assets.pratilipi.com/resource-all/image/ui2022/write-icon.svg"
+                                            alt="write-icon" data-v-cabc665e="">
+                                        <p data-v-cabc665e="">
+                                            Write
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="account.html">
+                                    <div class="navbar-link" data-v-cabc665e=""><img
+                                            src="https://static-assets.pratilipi.com/resource-all/image/ui2022/profile-icon.svg"
+                                            alt="profile-icon" data-v-cabc665e="">
+                                        <p data-v-cabc665e="">
+                                            Account
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </section>
+
+
+     <!-- section 5 -->
+     <section>
+        <div class="category-sec1">
+            <a href="">
+                    <h1>Explore Categories</h1>
+            </a>
+            <div class="story1">
+                <!-- first -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://images.pexels.com/photos/196664/pexels-photo-196664.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="">
+                        <div class="content">
+                            <p>Romance Stories</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- second -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://images.pexels.com/photos/1270184/pexels-photo-1270184.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="">
+                        <div class="content">
+                            <p>Horror Stories</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- third -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://images.pexels.com/photos/1549974/pexels-photo-1549974.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="">
+                        <div class="content">
+                            <p>Children's Stories</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- fourth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://images.pexels.com/photos/9089229/pexels-photo-9089229.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="">
+                        <div class="content">
+                            <p>Comedy</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- fifth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/resource-all/android-category-banners/suspence.jpg"
+                            alt="">
+                        <div class="content">
+                            <p>Suspense Stories</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- sixth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/resource-all/android-category-banners/biography.jpg"
+                            alt="">
+                        <div class="content">
+                            <p>Biography</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- seventh -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/resource-all/android-category-banners/youth.jpg"
+                            alt="">
+                        <div class="content">
+                            <p>Young Adult</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- eighth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/resource-all/android-category-banners/event_life.jpg"
+                            alt="">
+                        <div class="content">
+                            <p>Life</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- nineth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/resource-all/android-category-banners/social.jpg"
+                            alt="">
+                        <div class="content">
+                            <p>Society</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- tenth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/resource-all/android-category-banners/shortstories.jpg"
+                            alt="">
+                        <div class="content">
+                            <p>Short Stories</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- eleventh -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/resource-all/android-category-banners/event_generic4.jpg"
+                            alt="">
+                        <div class="content">
+                            <p>Tragedy</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- twelve -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/resource-all/android-category-banners/scifi.jpg"
+                            alt="">
+                        <div class="content">
+                            <p>Science Fiction</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- thirteen -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/resource-all/android-category-banners/history.jpg"
+                            alt="">
+                        <div class="content">
+                            <p>Historical Fiction</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- fourteen -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/resource-all/android-category-banners/culture.jpg"
+                            alt="">
+                        <div class="content">
+                            <p>Drama</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- fifteen -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/resource-all/android-category-banners/adventure.jpg"
+                            alt="">
+                        <div class="content">
+                            <p>Action & Adventure</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- sixteen -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/resource-all/android-category-banners/india.jpg"
+                            alt="">
+                        <div class="content">
+                            <p>Mythology</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- seventeen -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/resource-all/android-category-banners/women.jpg"
+                            alt="">
+                        <div class="content">
+                            <p>Women</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- eighteen -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/resource-all/android-category-banners/religion.jpg"
+                            alt="">
+                        <div class="content">
+                            <p>Religion</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- nineteen -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/resource-all/android-category-banners/travel.jpg"
+                            alt="">
+                        <div class="content">
+                            <p>Travel Stories</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- twenteen -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/resource-all/android-category-banners/satire.jpg"
+                            alt="">
+                        <div class="content">
+                            <p>Satire</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 6 -->
+    <!-- stories -->
+    <section>
+        <div class="section6">
+            <button><a href="">Romance Stories</a></button>
+            <button><a href="">Short Stories</a></button>
+            <button><a href="">Science Fiction</a></button>
+            <button><a href="">Action and Adventure</a></button>
+            <button><a href="">Thriller Stories</a></button>
+            <button><a href="">Fantasy And Supernatural</a></button>
+            <button><a href="">Horror Stories</a></button>
+            <button><a href="">Classics</a></button>
+            <button><a href="">Fresh Voices</a></button>
+            <button><a href="">Classic Love Stories</a></button>
+            <br>
+            <button><a href="">All Time Favourites</a></button>
+            <button><a href="">Travel</a></button>
+            <button><a href="">Poems</a></button>
+            <button><a href="">Travel</a></button>
+            <button><a href="">Travel</a></button>
+            <button><a href="">Children</a></button>
+            <button><a href="">Medical</a></button>
+            <button><a href="">Classic</a></button>
+            <button><a href="">Biography</a></button>
+            <button><a href="">Biography</a></button>
+        </div>
+    </section>
+
+    <!-- section 8 -->
+    <!-- popular Lnaguages -->
+       <section>
+        <div class="section8">
+            <div class="grid1">
+                <div class="grid">
+                    <div class="left">
+                        <h5 class="h5">Popular Languages</h5>
+                    </div>
+                    <div class="right">
+                    <button id="toggle1" type="button"><i class="fa-solid fa-caret-down"></i></button>
+                    </div>
+                </div>
+                <ul class="home1">
+                    <li><a href="">Hindi</a></li>
+                    <li><a href="">Marathi</a></li>
+                    <li><a href="">Bengali</a></li>
+                    <li><a href="">Malayalam</a></li>
+                    <li><a href="">Kannada</a></li>
+                    <li><a href="">Telugu</a></li>
+                    <li><a href="">Tamil</a></li>
+                </ul>
+            </div>
+
+            <div class="grid1">
+                <div class="grid">
+                    <div class="left">
+                        <h5 class="h5">Top Genre</h5>
+                    </div>
+                    <div class="right">
+                    <button id="toggle2" type="button"><i class="fa-solid fa-caret-down"></i></button>
+                    </div>
+                </div>
+                <ul class="home2">
+                    <li><a href="">Romance</a></li>
+                    <li><a href="">Young Adult</a></li>
+                    <li><a href="">Suspense</a></li>
+                    <li><a href="">Drama</a></li>
+                    <li><a href="">Top Content</a></li>
+                </ul>
+            </div>
+
+            <div class="grid1">
+                <div class="grid">
+                    <div class="left">
+                        <h5 class="h5">Also Read</h5>
+                    </div>
+                    <div class="right">
+                    <button id="toggle3" type="button"><i class="fa-solid fa-caret-down"></i></button>
+                    </div>
+                </div>
+                <ul class="home3">
+                    <li><a href="">Most Read</a></li>
+                    <li><a href="">William Shakespeare</a></li>
+                    <li><a href="">Arthur Conan Doyle</a></li>
+                </ul>
+            </div>
+        </div>
+       </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer1">
+            <div class="grid">
+                <div class="before">
+                    <h1>Mobile App</h1>
+                </div>
+                <div class="content">
+                    <a href=""><img src="https://mark8-static.pratilipi.com/seo-suite/img/google-play-badge.546770f.png" alt=""></a> <br> 
+                    <a href=""><img src="https://mark8-static.pratilipi.com/seo-suite/img/app-store-badge.5e95663.png" alt=""></a>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="before">
+                    <h1>Help centre</h1>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li><a href=""><i class="fa-solid fa-pencil"></i>Writing</a></li>
+                        <li><a href=""><i class="fa-solid fa-book-open"></i>Reading</a></li>
+                        <li><a href=""><i class="fa-regular fa-copyright"></i>Copyright</a></li>
+                        <li><a href=""><i class="fa-regular fa-circle-question"></i>General</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="before">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li><a href=""><i class="fa-solid fa-envelope"></i>miralimoradiya@gmail.com</a></li>
+                    </ul>
+                    <p>
+                        <i class="fa-solid fa-address-card"></i>  407, Dhara Arcade, Mahadev Chowk, opposite Swaminarayan temple, Maruti Nandan Society,  <br>Mota Varachha, Surat,<br> Gujarat 394101
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="before">
+                    <h1>Follow us on Social Media</h1>
+                </div>
+                <div class="content">
+                    <div class="mira">
+                        <div class="back">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="back">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="back">
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                        <div class="back">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer last -->
+    <footer>
+        <div class="footer2">
+            <div class="left">
+                <p>© 2023 Tops Tech. Pvt. Ltd.</p>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href=""> | About Us </a></li>
+                    <li><a href=""> | Work With Us </a></li>
+                    <li><a href=""> | Privacy Policy </a></li>
+                    <li><a href=""> | Terms </a></li>
+                    <li><a href=""> | Vulnerability Disclosure Policy </a></li>
+                    <li><a href=""> | Hall of Fame </a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+
+        $(document).ready(function(){
+        $("#toggle1").click(function(){
+        $(".home1").toggle();
+        });
+        $("#toggle2").click(function(){
+        $(".home2").toggle();
+        });
+        $("#toggle3").click(function(){
+        $(".home3").toggle();
+        });
+        });
+    </script>
+</body>
+</html>

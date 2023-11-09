@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap cdn for css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- bootstrap cdn for js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- media query links -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="576max.css">
+    <link rel="stylesheet" href="576min.css">
+    <link rel="stylesheet" href="768min.css">
+    <link rel="stylesheet" href="992min.css">
+    <link rel="stylesheet" href="1200min.css">
+</head>
+<body style="background-color: rgb(243 244 246);">
+    <section>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand me-5 pe-5 ms-5" href="main.html">
+                        <img src="https://static-assets.pratilipi.com/resource-all/image/ui2022/pratilipi_logo.png"
+                            alt="" height="40px">
+                        <span style="color: rgb(207, 9, 9);"><b>pustak</b></span>
+                    </a>
+
+                    <div class="dropdown ms-3 me-3">
+                        <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            English
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">বাংলা</a></li>
+                            <li><a class="dropdown-item" href="#">ગુજરાતી</a></li>
+                            <li><a class="dropdown-item" href="#">हिन्दी</a></li>
+                            <li><a class="dropdown-item" href="#">ಕನ್ನಡ</a></li>
+                            <li><a class="dropdown-item" href="#">മലയാളം</a></li>
+                            <li><a class="dropdown-item" href="#">मराठी</a></li>
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">ਪੰਜਾਬੀ</a></li>
+                        </ul>
+                    </div>
+
+                    <nav class="navbar navbar-light bg-light m-3">
+                        <div class="container-fluid">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="&#x1F50E; Search stories"
+                                    aria-label="Search">
+                            </form>
+                        </div>
+                    </nav>
+
+                    <button type="button" class="btn btn-primary position-relative me-5">
+                        <i class="fa-solid fa-bell"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            8+
+                        </span>
+                    </button>
+
+                    <div class="header1">
+                        <div class="collapse navbar-collapse ms-5 ps-5" id="navbarNavAltMarkup">
+                            <div class="tw-flex tw-items-center tw-ms-auto" data-v-cabc665e=""
+                                style="display: flex; gap: 0px 30px; margin-top: 10px;">
+                                <a href="main.html">
+                                    <div class="navbar-link" data-v-cabc665e=""><img src="https://static-assets.pratilipi.com/resource-all/image/ui2022/home-icon.svg" alt="home-icon" data-v-cabc665e="">
+                                        <p data-v-cabc665e="">
+                                            Home
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="category.html">
+                                    <div class="navbar-link" data-v-cabc665e=""><img src="https://static-assets.pratilipi.com/resource-all/image/ui2022/explore-icon.svg" alt="explore-icon" class="icon" data-v-de6daeaa="">
+                                        <p data-v-cabc665e="">
+                                            Category
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="write.html">
+                                    <div class="navbar-link" data-v-cabc665e=""><img src="https://static-assets.pratilipi.com/resource-all/image/ui2022/write-icon.svg" alt="write-icon" class="icon" data-v-de6daeaa="">
+                                        <p data-v-cabc665e="">
+                                            Write
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="account.html">
+                                    <div class="navbar-link" data-v-cabc665e=""><img src="https://static-assets.pratilipi.com/resource-all/image/ui2022/teal-profile-icon.svg" alt="profile-icon" class="icon" data-v-de6daeaa="">
+                                        <p data-v-cabc665e="">
+                                            Account
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </section>
+
+    <!-- section for header  -->
+    <section>
+        <div class="acount-sec1">
+            <div class="left-header">
+                <ul>
+                    <li><a href="account.html"><i class="fa-solid fa-house"></i> <p>Home</p></a></li>
+                    <li><a href="02_search.html"><i class="fa-solid fa-magnifying-glass"></i><p>Search</p></a></li>
+                    <li style="text-decoration:overline;"><a href="03_friends.html"><i class="fa-solid fa-users"></i> <p>Friends</p></a></li>
+                    <li><a href="04_message.html"><i class="fa-solid fa-message"></i> <p>Message</p></a></li>
+                    <li><a href="05_profile.html"><i class="fa-solid fa-user"></i> <p>Profile</p></a></li>
+                </ul>    
+            </div>
+        
+            <div class="right-content">
+                <div class="friends_page">
+                    <div class="sec1">
+                        <input type="search" name="" id="" placeholder="search anything">
+                        <a href="">
+                            <img src="https://images.unsplash.com/photo-1579463148228-138296ac3b98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" alt="">
+                        </a>
+                    </div>
+                    <hr>
+                    <div class="members">
+                        <div class="member1">
+                            <button type="button" class="btn" style="background-color: rgb(235, 134, 134);">
+                                Active Members <span class="badge bg-secondary">15</span>
+                            </button>
+                        </div>
+                        <div class="member2">
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"  style="border-color: rgb(235, 134, 134);">
+                                    Last Active
+                                </button>
+                                <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1"  style="border-color: rgb(238, 187, 187);">
+                                  <li><a class="dropdown-item" href="#">Last Active</a></li>
+                                  <li><a class="dropdown-item" href="#">Newest Registered</a></li>
+                                  <li><a class="dropdown-item" href="#">Alphabetical</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="member3">
+                            <button type="button" class="btn" style="background-color: rgb(235, 134, 134);">
+                                Message Request <span class="badge bg-secondary">3</span>
+                            </button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="sec2">
+                        <div class="profileee">
+                            <img src="https://images.pexels.com/photos/16297414/pexels-photo-16297414/free-photo-of-close-up-of-salad-and-sauce-on-the-plate.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+                            <h1><a href="">Nora</a></h1>
+                            <p>Active 42 minutes ago</p>
+                            <div class="followers">
+                                <div class="friend1">
+                                    <h2>0</h2>
+                                    <b>followers</b>
+                                </div>
+                                <div class="friend2">
+                                    <h2>6</h2>
+                                    <b>followings</b>
+                                </div>
+                            </div>
+                            <button><a href="">View Profile</a></button>
+                        </div>
+                        <div class="profileee">
+                            <img src="https://mythemestore.com/beehive-preview/wp-content/uploads/avatars/1/6005b5c330c63-bpfull.png" alt="">
+                            <h1><a href="">Sephiroth</a></h1>
+                            <p>Active 1 Week ago</p>
+                            <div class="followers">
+                                <div class="friend1">
+                                    <h2>10</h2>
+                                    <b>followers</b>
+                                </div>
+                                <div class="friend2">
+                                    <h2>9</h2>
+                                    <b>followings</b>
+                                </div>
+                            </div>
+                            <button><a href="">View Profile</a></button>
+                        </div>
+                        <div class="profileee">
+                            <img src="https://mythemestore.com/beehive-preview/wp-content/uploads/avatars/4/5e2cc15a922f4-bpfull.jpg" alt="">
+                            <h1><a href="">Irina Petrova</a></h1>
+                            <p>Active 10 months ago</p>
+                            <div class="followers">
+                                <div class="friend1">
+                                    <h2>10</h2>
+                                    <b>followers</b>
+                                </div>
+                                <div class="friend2">
+                                    <h2>3</h2>
+                                    <b>followings</b>
+                                </div>
+                            </div>
+                            <button><a href="">View Profile</a></button>
+                        </div>
+                        <div class="profileee">
+                            <img src="https://mythemestore.com/beehive-preview/wp-content/uploads/avatars/16/5e2d07dbc43f2-bpfull.jpg" alt="">
+                            <h1><a href="">Jennie Ferguson</a></h1>
+                            <p>Active 1 minutes ago</p>
+                            <div class="followers">
+                                <div class="friend1">
+                                    <h2>1</h2>
+                                    <b>followers</b>
+                                </div>
+                                <div class="friend2">
+                                    <h2>1</h2>
+                                    <b>followings</b>
+                                </div>
+                            </div>
+                            <button><a href="">View Profile</a></button>
+                        </div>
+                        <div class="profileee">
+                            <img src="https://mythemestore.com/beehive-preview/wp-content/uploads/avatars/5/5e2cc51a2a79d-bpfull.jpg" alt="">
+                            <h1><a href="">Robert Cook</a></h1>
+                            <p>Active 10 minutes ago</p>
+                            <div class="followers">
+                                <div class="friend1">
+                                    <h2>5</h2>
+                                    <b>followers</b>
+                                </div>
+                                <div class="friend2">
+                                    <h2>4</h2>
+                                    <b>followings</b>
+                                </div>
+                            </div>
+                            <button><a href="">View Profile</a></button>
+                        </div>
+                        <div class="profileee">
+                            <img src="https://mythemestore.com/beehive-preview/wp-content/uploads/avatars/6/5e2cccd55d57d-bpfull.jpg" alt="">
+                            <h1><a href="">Sophia Lee</a></h1>
+                            <p>Active 10 minutes ago</p>
+                            <div class="followers">
+                                <div class="friend1">
+                                    <h2>3</h2>
+                                    <b>followers</b>
+                                </div>
+                                <div class="friend2">
+                                    <h2>5</h2>
+                                    <b>followings</b>
+                                </div>
+                            </div>
+                            <button><a href="">View Profile</a></button>
+                        </div>
+                        <div class="profileee">
+                            <img src="https://mythemestore.com/beehive-preview/wp-content/uploads/avatars/14/5e2d01291542c-bpfull.jpg" alt="">
+                            <h1><a href="">John Thompson</a></h1>
+                            <p>Active 9 minutes ago</p>
+                            <div class="followers">
+                                <div class="friend1">
+                                    <h2>93</h2>
+                                    <b>followers</b>
+                                </div>
+                                <div class="friend2">
+                                    <h2>5</h2>
+                                    <b>followings</b>
+                                </div>
+                            </div>
+                            <button><a href="">View Profile</a></button>
+                        </div>
+                        <div class="profileee">
+                            <img src="https://mythemestore.com/beehive-preview/wp-content/uploads/avatars/12/5e2cfd5d18ea0-bpfull.jpg" alt="">
+                            <h1><a href="">Alexis Clark</a></h1>
+                            <p>Active 3 minutes ago</p>
+                            <div class="followers">
+                                <div class="friend1">
+                                    <h2>4</h2>
+                                    <b>followers</b>
+                                </div>
+                                <div class="friend2">
+                                    <h2>1</h2>
+                                    <b>followings</b>
+                                </div>
+                            </div>
+                            <button><a href="">View Profile</a></button>
+                        </div>
+                        <div class="profileee">
+                            <img src="https://mythemestore.com/beehive-preview/wp-content/uploads/avatars/9/5e2ce3f5b95cd-bpfull.jpg" alt="">
+                            <h1><a href="">Brian Walton</a></h1>
+                            <p>Active 1 month ago</p>
+                            <div class="followers">
+                                <div class="friend1">
+                                    <h2>4</h2>
+                                    <b>followers</b>
+                                </div>
+                                <div class="friend2">
+                                    <h2>11</h2>
+                                    <b>followings</b>
+                                </div>
+                            </div>
+                            <button><a href="">View Profile</a></button>
+                        </div>
+                        <div class="profileee">
+                            <img src="https://mythemestore.com/beehive-preview/wp-content/uploads/avatars/8/5e2cd470750a5-bpfull.jpg" alt="">
+                            <h1><a href="">Linda Lohan</a></h1>
+                            <p>Active 2 minutes ago</p>
+                            <div class="followers">
+                                <div class="friend1">
+                                    <h2>4</h2>
+                                    <b>followers</b>
+                                </div>
+                                <div class="friend2">
+                                    <h2>7</h2>
+                                    <b>followings</b>
+                                </div>
+                            </div>
+                            <button><a href="">View Profile</a></button>
+                        </div>
+                        <div class="profileee">
+                            <img src="https://mythemestore.com/beehive-preview/wp-content/uploads/avatars/11/5e2cfa2fbe4b9-bpfull.jpg" alt="">
+                            <h1><a href="">Anna Young</a></h1>
+                            <p>Active 46 minutes ago</p>
+                            <div class="followers">
+                                <div class="friend1">
+                                    <h2>3</h2>
+                                    <b>followers</b>
+                                </div>
+                                <div class="friend2">
+                                    <h2>6</h2>
+                                    <b>followings</b>
+                                </div>
+                            </div>
+                            <button><a href="">View Profile</a></button>
+                        </div>
+                        <div class="profileee">
+                            <img src="https://mythemestore.com/beehive-preview/wp-content/uploads/avatars/10/5e2cf874833ee-bpfull.jpg" alt="">
+                            <h1><a href="">Emma Johnson</a></h1>
+                            <p>Active 4 minutes ago</p>
+                            <div class="followers">
+                                <div class="friend1">
+                                    <h2>5</h2>
+                                    <b>followers</b>
+                                </div>
+                                <div class="friend2">
+                                    <h2>3</h2>
+                                    <b>followings</b>
+                                </div>
+                            </div>
+                            <button><a href="">View Profile</a></button>
+                        </div>
+                        <div class="profileee">
+                            <img src="https://mythemestore.com/beehive-preview/wp-content/uploads/avatars/13/5e2cfee616ad3-bpfull.jpg" alt="">
+                            <h1><a href="">Julia Cox</a></h1>
+                            <p>Active 2 years ago</p>
+                            <div class="followers">
+                                <div class="friend1">
+                                    <h2>4</h2>
+                                    <b>followers</b>
+                                </div>
+                                <div class="friend2">
+                                    <h2>0</h2>
+                                    <b>followings</b>
+                                </div>
+                            </div>
+                            <button><a href="">View Profile</a></button>
+                        </div>
+                        <div class="profileee">
+                            <img src="https://mythemestore.com/beehive-preview/wp-content/uploads/avatars/15/5e2d0381c5f1e-bpfull.jpg" alt="">
+                            <h1><a href="">Richard Bell</a></h1>
+                            <p>Active 8 minutes ago</p>
+                            <div class="followers">
+                                <div class="friend1">
+                                    <h2>2</h2>
+                                    <b>followers</b>
+                                </div>
+                                <div class="friend2">
+                                    <h2>1</h2>
+                                    <b>followings</b>
+                                </div>
+                            </div>
+                            <button><a href="">View Profile</a></button>
+                        </div>
+                        <div class="profileee">
+                            <img src="https://mythemestore.com/beehive-preview/wp-content/uploads/avatars/7/5e2cd04d1eade-bpfull.jpg" alt="">
+                            <h1><a href="">James Carter</a></h1>
+                            <p>Active 2 minutes ago</p>
+                            <div class="followers">
+                                <div class="friend1">
+                                    <h2>4</h2>
+                                    <b>followers</b>
+                                </div>
+                                <div class="friend2">
+                                    <h2>2</h2>
+                                    <b>followings</b>
+                                </div>
+                            </div>
+                            <button><a href="">View Profile</a></button>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer last -->
+    <footer>
+        <div class="footer2">
+            <div class="left">
+                <p>© 2023 Tops Tech. Pvt. Ltd. </p>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href=""> | About Us </a></li>
+                    <li><a href=""> | Work With Us </a></li>
+                    <li><a href=""> | Privacy Policy </a></li>
+                    <li><a href=""> | Terms </a></li>
+                    <li><a href=""> | Vulnerability Disclosure Policy </a></li>
+                    <li><a href=""> | Hall of Fame </a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

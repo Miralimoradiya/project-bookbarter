@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap cdn for css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- bootstrap cdn for js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- media query links -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="576max.css">
+    <link rel="stylesheet" href="576min.css">
+    <link rel="stylesheet" href="768min.css">
+    <link rel="stylesheet" href="992min.css">
+    <link rel="stylesheet" href="1200min.css">
+</head>
+<body style="background-color: rgb(243 244 246);">
+    <section>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand me-5 pe-5 ms-5" href="main.html">
+                        <img src="https://static-assets.pratilipi.com/resource-all/image/ui2022/pratilipi_logo.png"
+                            alt="" height="40px">
+                        <span style="color: rgb(207, 9, 9);"><b>pustak</b></span>
+                    </a>
+
+                    <div class="dropdown ms-3 me-3">
+                        <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            English
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">বাংলা</a></li>
+                            <li><a class="dropdown-item" href="#">ગુજરાતી</a></li>
+                            <li><a class="dropdown-item" href="#">हिन्दी</a></li>
+                            <li><a class="dropdown-item" href="#">ಕನ್ನಡ</a></li>
+                            <li><a class="dropdown-item" href="#">മലയാളം</a></li>
+                            <li><a class="dropdown-item" href="#">मराठी</a></li>
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">ਪੰਜਾਬੀ</a></li>
+                        </ul>
+                    </div>
+
+                    <nav class="navbar navbar-light bg-light m-3">
+                        <div class="container-fluid">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="&#x1F50E; Search stories"
+                                    aria-label="Search">
+                            </form>
+                        </div>
+                    </nav>
+
+                    <button type="button" class="btn btn-primary position-relative me-5">
+                        <i class="fa-solid fa-bell"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            8+
+                        </span>
+                    </button>
+
+                    <div class="header1">
+                        <div class="collapse navbar-collapse ms-5 ps-5" id="navbarNavAltMarkup">
+                            <div class="tw-flex tw-items-center tw-ms-auto" data-v-cabc665e=""
+                                style="display: flex; gap: 0px 30px; margin-top: 10px;">
+                                <a href="main.html">
+                                    <div class="navbar-link" data-v-cabc665e=""><img src="https://static-assets.pratilipi.com/resource-all/image/ui2022/home-icon.svg" alt="home-icon" data-v-cabc665e="">
+                                        <p data-v-cabc665e="">
+                                            Home
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="category.html">
+                                    <div class="navbar-link" data-v-cabc665e=""><img src="https://static-assets.pratilipi.com/resource-all/image/ui2022/explore-icon.svg" alt="explore-icon" class="icon" data-v-de6daeaa="">
+                                        <p data-v-cabc665e="">
+                                            Category
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="write.html">
+                                    <div class="navbar-link" data-v-cabc665e=""><img src="https://static-assets.pratilipi.com/resource-all/image/ui2022/write-icon.svg" alt="write-icon" class="icon" data-v-de6daeaa="">
+                                        <p data-v-cabc665e="">
+                                            Write
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="account.html">
+                                    <div class="navbar-link" data-v-cabc665e=""><img src="https://static-assets.pratilipi.com/resource-all/image/ui2022/teal-profile-icon.svg" alt="profile-icon" class="icon" data-v-de6daeaa="">
+                                        <p data-v-cabc665e="">
+                                            Account
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </section>
+
+    <!-- section for header  -->
+    <section>
+        <div class="acount-sec1">
+            <div class="left-header">
+              <ul>
+                <li><a href="account.html"><i class="fa-solid fa-house"></i> <p>Home</p></a></li>
+                <li><a href="02_search.html"><i class="fa-solid fa-magnifying-glass"></i><p>Search</p></a></li>
+                <li><a href="03_friends.html"><i class="fa-solid fa-users"></i> <p>Friends</p></a></li>
+                <li><a href="04_message.html"><i class="fa-solid fa-message"></i> <p>Message</p></a></li>
+                <li style="text-decoration:overline;"><a href="05_profile.html"><i class="fa-solid fa-user"></i> <p>Profile</p></a></li>
+            </ul> 
+            </div>
+        
+            <div class="right-content">
+                <div class="d-flex flex-column flex-lg-row h-lg-full bg-surface-secondary">
+                    <!-- Main content -->
+                    <div class="h-screen flex-grow-1 overflow-y-lg-auto">
+                      <!-- Main -->
+                      <main class="py-6 bg-surface-secondary">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-xl-7 mx-auto">
+                              <!-- Profile picture -->
+                              <div class="card shadow border-0 mt-4 mb-10">
+                                <div class="card-body">
+                                  <div class="d-flex align-items-center">
+                                    <div>
+                                      <div class="d-flex align-items-center">
+                                        <a href="#" class="avatar avatar-lg bg-warning rounded-circle text-white">
+                                          <img alt="..." src="https://images.unsplash.com/photo-1579463148228-138296ac3b98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80">
+                                        </a>
+                                        <div class="ms-4">
+                                          <span class="h4 d-block mb-0">Julianne Moore</span>
+                                          <a href="#" class="text-sm font-semibold text-muted">View Profile</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="ms-auto">
+                                      <button type="button" class="btn btn-sm btn-neutral">Upload</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Form -->
+                              <div class="mb-5 mt-5">
+                                <h5 class="mb-0">Contact Information</h5>
+                              </div>
+                              <form class="mb-6">
+                                <div class="row mb-5">
+                                  <div class="col-md-6">
+                                    <div class="">
+                                      <label class="form-label" for="first_name">First name</label>
+                                      <input type="text" class="form-control" id="first_name">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="">
+                                      <label class="form-label" for="last_name">Last name</label>
+                                      <input type="text" class="form-control" id="last_name">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row g-5">
+                                  <div class="col-md-6">
+                                    <div class="">
+                                      <label class="form-label" for="email">Email</label>
+                                      <input type="email" class="form-control" id="email">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="">
+                                      <label class="form-label" for="phone_number">Phone number</label>
+                                      <input type="tel" class="form-control" id="phone_number">
+                                    </div>
+                                  </div>
+                                  <div class="col-12">
+                                    <div class="">
+                                      <label class="form-label" for="address">Address</label>
+                                      <input type="text" class="form-control" id="address">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="">
+                                      <label class="form-label" for="city">City</label>
+                                      <input type="text" class="form-control" id="city">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                    <div class="">
+                                      <label class="form-label" for="country">Country</label>
+                                      <select class="form-select" id="country" placeholder="Your email" aria-label="Default select example">
+                                        <option selected>Country</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="col-12">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" name="check_primary_address" id="check_primary_address">
+                                      <label class="form-check-label" for="check_primary_address">
+                                        Make this my default address
+                                      </label>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="text-end">
+                                  <button type="button" class="btn btn-sm btn-neutral me-2">Cancel</button>
+                                  <button type="submit" class="btn btn-sm btn-primary">Save</button>
+                                </div>
+                              </form>
+                              <hr class="my-10" />
+                              <!-- Individual switch cards -->
+                              <div class="row g-6">
+                                <div class="col-md-6">
+                                  <div class="card shadow border-0">
+                                    <div class="card-body">
+                                      <h5 class="mb-2">Public profile</h5>
+                                      <p class="text-sm text-muted mb-6">
+                                        Making your profile public means that anyone on the network will be able to find you.
+                                      </p>
+                                      <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" checked>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="card shadow border-0">
+                                    <div class="card-body">
+                                      <h5 class="mb-2">Show my email</h5>
+                                      <p class="text-sm text-muted mb-6">
+                                        Showing your e-mail adresses means that anyone on the network will be able to find you.
+                                      </p>
+                                      <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-12 mt-5">
+                                  <div class="card shadow border-0">
+                                    <div class="card-body d-flex align-items-center">
+                                      <div>
+                                        <h5 class="text-danger mb-2">Deactivate account</h5>
+                                        <p class="text-sm text-muted">
+                                          Once you delete your account, there is no going back. Please be certain.
+                                        </p>
+                                      </div>
+                                      <div class="ms-auto">
+                                        <button type="button" class="btn btn-sm btn-danger">Deactivate</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </main>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer last -->
+    <footer>
+        <div class="footer2">
+            <div class="left">
+                <p>© 2023 Tops Tech. Pvt. Ltd. </p>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href=""> | About Us </a></li>
+                    <li><a href=""> | Work With Us </a></li>
+                    <li><a href=""> | Privacy Policy </a></li>
+                    <li><a href=""> | Terms </a></li>
+                    <li><a href=""> | Vulnerability Disclosure Policy </a></li>
+                    <li><a href=""> | Hall of Fame </a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

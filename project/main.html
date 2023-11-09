@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap cdn for css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- bootstrap cdn for js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- media query links -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="576max.css">
+    <link rel="stylesheet" href="576min.css">
+    <link rel="stylesheet" href="768min.css">
+    <link rel="stylesheet" href="992min.css">
+    <link rel="stylesheet" href="1200min.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand me-5 pe-5 ms-5" href="main.html">
+                        <img src="https://static-assets.pratilipi.com/resource-all/image/ui2022/pratilipi_logo.png"
+                            alt="" height="40px">
+                        <span style="color: rgb(207, 9, 9);"><b>pustak</b></span>
+                    </a>
+
+                    <div class="dropdown ms-3 me-3">
+                        <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            English
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">বাংলা</a></li>
+                            <li><a class="dropdown-item" href="#">ગુજરાતી</a></li>
+                            <li><a class="dropdown-item" href="#">हिन्दी</a></li>
+                            <li><a class="dropdown-item" href="#">ಕನ್ನಡ</a></li>
+                            <li><a class="dropdown-item" href="#">മലയാളം</a></li>
+                            <li><a class="dropdown-item" href="#">मराठी</a></li>
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">ਪੰਜਾਬੀ</a></li>
+                        </ul>
+                    </div>
+
+                    <nav class="navbar navbar-light bg-light m-3">
+                        <div class="container-fluid">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="&#x1F50E; Search stories"
+                                    aria-label="Search">
+                            </form>
+                        </div>
+                    </nav>
+
+                    <button type="button" class="btn btn-primary position-relative me-5">
+                        <i class="fa-solid fa-bell"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            8+
+                        </span>
+                    </button>
+
+                    <div class="header1">
+                        <div class="collapse navbar-collapse ms-5 ps-5" id="navbarNavAltMarkup">
+                            <div class="tw-flex tw-items-center tw-ms-auto" data-v-cabc665e=""
+                                style="display: flex; gap: 0px 30px; margin-top: 10px;">
+                                <a href="main.html">
+                                    <div class="navbar-link" data-v-cabc665e=""><img
+                                            src="https://static-assets.pratilipi.com/resource-all/image/ui2022/teal-home-icon.svg"
+                                            alt="home-icon" data-v-cabc665e="">
+                                        <p data-v-cabc665e="">
+                                            Home
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="category.html">
+                                    <div class="navbar-link" data-v-cabc665e=""><img
+                                            src="https://static-assets.pratilipi.com/resource-all/image/ui2022/explore-icon.svg"
+                                            alt="explore-icon" data-v-cabc665e="">
+                                        <p data-v-cabc665e="">
+                                            Category
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="write.html">
+                                    <div class="navbar-link" data-v-cabc665e=""><img
+                                            src="https://static-assets.pratilipi.com/resource-all/image/ui2022/write-icon.svg"
+                                            alt="write-icon" data-v-cabc665e="">
+                                        <p data-v-cabc665e="">
+                                            Write
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="account.html">
+                                    <div class="navbar-link" data-v-cabc665e=""><img
+                                            src="https://static-assets.pratilipi.com/resource-all/image/ui2022/profile-icon.svg"
+                                            alt="profile-icon" data-v-cabc665e="">
+                                        <p data-v-cabc665e="">
+                                            Account
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </section>
+
+
+    <!-- section 2 -->
+    <section>
+        <div class="section2">
+            <div class="left">
+                <h1>best plateform for online book reading</h1>
+                <h3>Rebecca Collins</h3>
+                <p><b>Rebecca Collins is a short story author, novelist, and award-winning poet.</b> <br>
+                    She has work appearing or forthcoming in over a dozen venues, including Buzzy Mag, The Spirit of
+                    Poe, and the British Fantasy Society journal Dark Horizons. Rebecca is also CEO of a company,
+                    specializing in custom book publishing and social media marketing services, have created a community
+                    for authors to learn and connect.</p>
+            </div>
+            <div class="right">
+                <img src="http://subsolardesigns.com/novelawp/wp-content/uploads/2014/10/book2.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- section3 -->
+    <section>
+        <div class="section3">
+            <a href="">
+                <div class="trending">
+                    <h1>Top Trending Stories</h1>
+                    <h2>></h2>
+                </div>
+            </a>
+            <div class="story1">
+                <!-- first -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi/cover?pratilipiId=6755373536641592&version=3e4b5b2f-6ea1-46de-8651-49c3dd4e1838&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h1>#1</h1>
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.9</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 116 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">THE DETECTIVE (completed)</h5>
+                            <em>9 hours</em>
+                            <h6>39K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- second -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=103147&version=d4a1c8f2-a355-48f4-98ce-a912b5377939&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h1>#2</h1>
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.4</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 13 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">The unforgettable horror night ||
+                                COMPLETED</h5>
+                            <em>9 hours</em>
+                            <h6>50K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- third -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/404997/cover_image/404997.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h1>#3</h1>
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.4</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 162 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate">House Number 446</h5>
+                            <em>4 hours</em>
+                            <h6>1L+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- fourth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/83574/cover_image/83574.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h1>#4</h1>
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.9</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 41 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">Exploring Each Other</h5>
+                            <em>8 hours</em>
+                            <h6>90K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- fifth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/724790/cover_image/724790.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h1>#5</h1>
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.5</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 166 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">Alpha Titan</h5>
+                            <em>17 hours</em>
+                            <h6>52K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- sixth one -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/409043/cover_image/409043.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h1>#6</h1>
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.9</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 81 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">The CEO's Night Lover [Completed]</h5>
+                            <em>7 hours</em>
+                            <h6>90K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 4 -->
+    <section>
+        <div class="section4">
+            <a href="">
+                <div class="trending">
+                    <h1>Top Recently Updated Series</h1>
+                    <h2>></h2>
+                </div>
+            </a>
+            <div class="story1">
+                <!-- first -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=653650&version=e7cbe550-fefc-4fe8-8636-6388612b6ec1&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.9</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 152 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">My Love is one in a million</h5>
+                            <em>11 hours</em>
+                            <h6>36K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- second -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=584388&version=b9b410a1-9deb-4da4-80f8-ce0f9b34b12d&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.9</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 152 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">Unwanted marriage</h5>
+                            <em>11 hours</em>
+                            <h6>49K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- third -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi/cover?pratilipiId=6755373534735459&version=768b25f6-9108-42db-986f-a927aee5fa70&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.9</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 85 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate">Feeling Your Warmth</h5>
+                            <em>7 hours</em>
+                            <h6>16L+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- fourth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=756032&version=0d650355-19fa-4ed9-bcea-5e3296102aef&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.9</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 48 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">Arrange Marriage</h5>
+                            <em>4 hours</em>
+                            <h6>15K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- fifth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=564538&version=92b4fb47-1d5c-4d49-8687-f063151a1ab9&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.9</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 98 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">Dominated By My Stepbrother</h5>
+                            <em>10 hours</em>
+                            <h6>7K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- sixth one -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi/cover?pratilipiId=6755373540234992&version=9c984c1c-26b0-4f3d-aadb-083e7d69d377&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>5</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 49 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">In A Heartbeat...! - Intertwined Series
+                                - Book 5</h5>
+                            <em>7 hours</em>
+                            <h6>2K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 5 -->
+    <section>
+        <div class="section5">
+            <a href="">
+                <div class="trending">
+                    <h1>Explore Categories</h1>
+                    <h2>></h2>
+                </div>
+            </a>
+            <div class="story1">
+                <!-- first -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://images.pexels.com/photos/196664/pexels-photo-196664.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="">
+                        <div class="content">
+                            <p>Romance Stories</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- second -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://images.pexels.com/photos/1270184/pexels-photo-1270184.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="">
+                        <div class="content">
+                            <p>Horror Stories</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- third -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://images.pexels.com/photos/1549974/pexels-photo-1549974.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="">
+                        <div class="content">
+                            <p>Children's Stories</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- fourth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://images.pexels.com/photos/9089229/pexels-photo-9089229.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="">
+                        <div class="content">
+                            <p>Comedy</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 4 nu copy 
+        undiscovered romance -->
+    <section>
+        <div class="section4">
+            <a href="">
+                <div class="trending">
+                    <h1>Undiscovered Romance</h1>
+                    <h2>></h2>
+                </div>
+            </a>
+            <div class="story1">
+                <!-- first -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/600144/cover_image/600144.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.5</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 43 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">His Last Wish</h5>
+                            <em>7 hours</em>
+                            <h6>460 Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- second -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/608416/cover_image/608416.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.0</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 47 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">Devil's Vow</h5>
+                            <em>4 hours</em>
+                            <h6>3K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- third -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi/cover?pratilipiId=6755373533703255&version=31d86488-d880-49e5-a514-bcac57a42a33&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.7</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 35 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate">THE ITALIAN BILLIONAIRE PREGNANT BRIDE</h5>
+                            <em>6 hours</em>
+                            <h6>7k+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- fourth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/599734/cover_image/599734.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.7</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 108 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">Toxic Marriage</h5>
+                            <em>12 hours</em>
+                            <h6>21K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- fifth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/600861/cover_image/600861.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.8</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 36 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">My Bestfriend's Brother</h5>
+                            <em>7 hours</em>
+                            <h6>6K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- sixth one -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/608840/cover_image/608840.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.7</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 72 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">His Delicate Beauty</h5>
+                            <em>6 hours</em>
+                            <h6>3K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section 4 nu copy 
+        Romance Stories-->
+    <section>
+        <div class="section4">
+            <a href="">
+                <div class="trending">
+                    <h1>Romance Stories</h1>
+                    <h2>></h2>
+                </div>
+            </a>
+            <div class="story1">
+                <!-- first -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/443677/cover_image/443677.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.8</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 70 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">Imbibing Her Darkness</h5>
+                            <em>7 hours</em>
+                            <h6>89K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- second -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/273754/cover_image/273754.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.9</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 35 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">𝐓𝐀𝐍𝐆𝐋𝐄𝐃 𝐇𝐄𝐀𝐑𝐓𝐒✓ { 𝐵𝑜𝑜𝑘 𝐼 — 𝐻𝑒𝑎𝑟𝑡 𝑠𝑒𝑟𝑖𝑒𝑠 }</h5>
+                            <em>6 hours</em>
+                            <h6>37K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- third -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=292092&version=a1e17279-e58e-4cbd-8148-058e61bf507e&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.9</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 18 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate">Love after arrange marriage 😘</h5>
+                            <em>1 hours</em>
+                            <h6>15L+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- fourth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=537470&version=2740ea2c-5060-49bb-a6c5-3316e6aa7f00&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.9</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 56 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">ഒരു💦ചാറ്റൽമഴപോൽ</h5>
+                            <em>4 hours</em>
+                            <h6>4L+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- fifth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/379142/cover_image/379142.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.7</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 62 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">You Dazzle Me ✨</h5>
+                            <em>4 hours</em>
+                            <h6>1L+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- sixth one -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=471578&version=e394c6ca-7542-4330-861b-8f3526866a6c&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.9</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 45 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">(My psycho Mafia's Desire) Delightful❤️</h5>
+                            <em>2 hours</em>
+                            <h6>54K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 4 nu copy 
+        Youth Fiction Stories-->
+    <section>
+        <div class="section4">
+            <a href="">
+                <div class="trending">
+                    <h1>Youth Fiction Stories</h1>
+                    <h2>></h2>
+                </div>
+            </a>
+            <div class="story1">
+                <!-- first -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/175084/cover_image/175084.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.8</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 106 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">💞💞 AN EROS SO BEAUTIFUL💞💞(AESB-PART 1) COMPLETED</h5>
+                            <em>12 hours</em>
+                            <h6>1L+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- second -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/372379/cover_image/372379.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.9</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 35 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">The Heart that's Meant To Love You</h5>
+                            <em>3 hours</em>
+                            <h6>56K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- third -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=96474&version=5c9b11a5-bd6e-49ad-9f2c-89fc6d1a9ce8&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.7</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 13 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate">The Heart that's Meant To Love You</h5>
+                            <em>3 hours</em>
+                            <h6>31k+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- fourth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=542521&version=3acea061-ad17-4770-857e-e425312227ee&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.6</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 11 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">A pleasurable meeting 😍🥰 (BDSM) only for 18+</h5>
+                            <em>2 Minutes</em>
+                            <h6>14K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- fifth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=506379&version=f89ec000-2a5c-4eaa-b493-117edccd1d47&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.8</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 44 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">His Wicked Lies</h5>
+                            <em>7 hours</em>
+                            <h6>46K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- sixth one -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=332416&version=b6d82baa-34be-4c84-b4c6-72e2e28f0dc0&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.8</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 48 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">HIS ANGEL | JJK</h5>
+                            <em>4 hours</em>
+                            <h6>21K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section 4 nu copy 
+        Suspense Stories-->
+    <section>
+        <div class="section4">
+            <a href="">
+                <div class="trending">
+                    <h1>Suspense Stories</h1>
+                    <h2>></h2>
+                </div>
+            </a>
+            <div class="story1">
+                <!-- first -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/351998/cover_image/351998.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.5</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 44 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">Tales of the heart ❤️</h5>
+                            <em>3 hours</em>
+                            <h6>53K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- second -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=365434&version=9cee3e73-22a8-4ced-a431-b356fd400f3b&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.8</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 36 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">"INDIAN BRIDE OF ARDEN"❤️</h5>
+                            <em>2 hours</em>
+                            <h6>57K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- third -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=600847&version=81f7a358-f3f0-4ce5-a14f-b59fe56fc01e&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.9</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 65 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate">فیری ٹیل سیزن ٹو (The beast: has returned)</h5>
+                            <em>23 hours</em>
+                            <h6>28+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- fourth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=192630&version=a1b7ef7d-e181-4cf3-a32d-a895b5b51cc1&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.7</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 28 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">DO I LOVE MY VILLAIN? ❤</h5>
+                            <em>2 hours</em>
+                            <h6>55K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- fifth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=368848&version=e4dc62ce-d94e-4d4c-904d-7af91bf49b2d&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.8</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 22 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">𝐌𝐚𝐟𝐢𝐚 𝐊𝐢𝐧𝐠 !</h5>
+                            <em>2 hours</em>
+                            <h6>10K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- sixth one -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=527737&version=18ace9fe-d6c3-4980-b5fd-ac151a01a8ad&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.5</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 15 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">Haunted Mansion</h5>
+                            <em>1 hours</em>
+                            <h6>5K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section 4 nu copy Most 
+        Loved Stories-->
+    <section>
+        <div class="section4">
+            <a href="">
+                <div class="trending">
+                    <h1>Most Loved Stories</h1>
+                    <h2>></h2>
+                </div>
+            </a>
+            <div class="story1">
+                <!-- first -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=495226&version=70af41b5-b490-458b-a729-5c91345bda37&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.5</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 12 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">AN ONLINE AND OFFLINE STORY: A ROMANTIC EROTICA</h5>
+                            <em>18 hours</em>
+                            <h6>54K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- second -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/490028/cover_image/490028.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.8</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 43 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">The "K" Sisters - Nainital Saga- The Black Eclipse. (শুধুমাত্র প্রাপ্তবয়স্ক এবং প্রাপ্তমনস্কদের জন্য) 🔞+</h5>
+                            <em>20 hours</em>
+                            <h6>26K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- third -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=491074&version=e49e93ed-22c4-4aee-ab9d-77150d1a4b67&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.7</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 52 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate">Ishq after marriage</h5>
+                            <em>6 hours</em>
+                            <h6>63k+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- fourth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/190768/cover_image/190768.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.8</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 58 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">𝐋𝐎𝐕𝐄𝐒𝐓𝐑𝐔𝐂𝐊 | ✓</h5>
+                            <em>7 hours</em>
+                            <h6>74K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- fifth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/441010/cover_image/441010.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.8</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 72 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">Billionaire's Secret Marriage</h5>
+                            <em>4 hours</em>
+                            <h6>3L+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- sixth one -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/274393/cover_image/274393.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.8</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 34 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">LᎧᏤᏋ ᏊITH MR. ᏰᎧRᏁFIRᏋ ✔✔</h5>
+                            <em>2 hours</em>
+                            <h6>34K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section 4 nu 
+        copy Drama-->
+    <section>
+        <div class="section4">
+            <a href="">
+                <div class="trending">
+                    <h1>Drama</h1>
+                    <h2>></h2>
+                </div>
+            </a>
+            <div class="story1">
+                <!-- first -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=477606&version=d9e294d1-c80a-48a6-88eb-85ae1a49bbd2&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.8</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 105 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">Accidental Marriage.</h5>
+                            <em>12 hours</em>
+                            <h6>35K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- second -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=442469&version=e18e5560-1e43-4277-8a11-05e297e66443&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.7</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 11 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">Different_Love_👩‍❤️‍👨</h5>
+                            <em>44 hours</em>
+                            <h6>4K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- third -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/369320/cover_image/369320.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.7</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 29 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate">My Innocent Girl</h5>
+                            <em>5 hours</em>
+                            <h6>52K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- fourth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/305827/cover_image/305827.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.9</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 61 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">An Imperfect love</h5>
+                            <em>4 hours</em>
+                            <h6>1L+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- fifth -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/441010/cover_image/441010.jpg?quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.8</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 72 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">Billionaire's Secret Marriage</h5>
+                            <em>4 hours</em>
+                            <h6>3L+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+                <!-- sixth one -->
+                <div class="poster">
+                    <a href="">
+                        <img src="https://static-assets.pratilipi.com/series/cover?seriesId=136377&version=6185d8b0-c5c5-46d7-a9ff-83992eedfa0c&quality=high&type=webp"
+                            alt="">
+                        <div class="content">
+                            <div class="flex">
+                                <h2><i class="fa-solid fa-star" style="color: #ffffff; font-size: 14px;"></i>4.7</h2>
+                            </div>
+                            <p><i class="fa-regular fa-file-lines"></i><em style="font-style: normal;"> 30 parts</em>
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h5 class=" text-truncate" style="max-width: 150px;">IS IT YOU??? |COMPLETED|</h5>
+                            <em>3 hours</em>
+                            <h6>90K+ Total Readers</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 6 -->
+    <!-- stories -->
+    <section>
+        <div class="section6">
+            <button><a href="">Romance Stories</a></button>
+            <button><a href="">Short Stories</a></button>
+            <button><a href="">Science Fiction</a></button>
+            <button><a href="">Action and Adventure</a></button>
+            <button><a href="">Thriller Stories</a></button>
+            <button><a href="">Fantasy And Supernatural</a></button>
+            <button><a href="">Horror Stories</a></button>
+            <button><a href="">Classics</a></button>
+            <button><a href="">Fresh Voices</a></button>
+            <button><a href="">Classic Love Stories</a></button>
+            <br>
+            <button><a href="">All Time Favourites</a></button>
+            <button><a href="">Travel</a></button>
+            <button><a href="">Poems</a></button>
+            <button><a href="">Travel</a></button>
+            <button><a href="">Travel</a></button>
+            <button><a href="">Children</a></button>
+            <button><a href="">Medical</a></button>
+            <button><a href="">Classic</a></button>
+            <button><a href="">Biography</a></button>
+            <button><a href="">Biography</a></button>
+        </div>
+    </section>
+
+    <!-- section 8 -->
+    <!-- popular Lnaguages -->
+       <section>
+        <div class="section8">
+            <div class="grid1">
+                <div class="grid">
+                    <div class="left">
+                        <h5 class="h5">Popular Languages</h5>
+                    </div>
+                    <div class="right">
+                    <button id="toggle1" type="button"><i class="fa-solid fa-caret-down"></i></button>
+                    </div>
+                </div>
+                <ul class="home1">
+                    <li><a href="">Hindi</a></li>
+                    <li><a href="">Marathi</a></li>
+                    <li><a href="">Bengali</a></li>
+                    <li><a href="">Malayalam</a></li>
+                    <li><a href="">Kannada</a></li>
+                    <li><a href="">Telugu</a></li>
+                    <li><a href="">Tamil</a></li>
+                </ul>
+            </div>
+
+            <div class="grid1">
+                <div class="grid">
+                    <div class="left">
+                        <h5 class="h5">Top Genre</h5>
+                    </div>
+                    <div class="right">
+                    <button id="toggle2" type="button"><i class="fa-solid fa-caret-down"></i></button>
+                    </div>
+                </div>
+                <ul class="home2">
+                    <li><a href="">Romance</a></li>
+                    <li><a href="">Young Adult</a></li>
+                    <li><a href="">Suspense</a></li>
+                    <li><a href="">Drama</a></li>
+                    <li><a href="">Top Content</a></li>
+                </ul>
+            </div>
+
+            <div class="grid1">
+                <div class="grid">
+                    <div class="left">
+                        <h5 class="h5">Also Read</h5>
+                    </div>
+                    <div class="right">
+                    <button id="toggle3" type="button"><i class="fa-solid fa-caret-down"></i></button>
+                    </div>
+                </div>
+                <ul class="home3">
+                    <li><a href="">Most Read</a></li>
+                    <li><a href="">William Shakespeare</a></li>
+                    <li><a href="">Arthur Conan Doyle</a></li>
+                </ul>
+            </div>
+        </div>
+       </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer1">
+            <div class="grid">
+                <div class="before">
+                    <h1>Mobile App</h1>
+                </div>
+                <div class="content">
+                    <a href=""><img src="https://mark8-static.pratilipi.com/seo-suite/img/google-play-badge.546770f.png" alt=""></a> <br> 
+                    <a href=""><img src="https://mark8-static.pratilipi.com/seo-suite/img/app-store-badge.5e95663.png" alt=""></a>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="before">
+                    <h1>Help centre</h1>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li><a href=""><i class="fa-solid fa-pencil"></i>Writing</a></li>
+                        <li><a href=""><i class="fa-solid fa-book-open"></i>Reading</a></li>
+                        <li><a href=""><i class="fa-regular fa-copyright"></i>Copyright</a></li>
+                        <li><a href=""><i class="fa-regular fa-circle-question"></i>General</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="before">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li><a href=""><i class="fa-solid fa-envelope"></i>miralimoradiya@gmail.com</a></li>
+                    </ul>
+                    <p>
+                        <i class="fa-solid fa-address-card"></i>  407, Dhara Arcade, Mahadev Chowk, opposite Swaminarayan temple, Maruti Nandan Society,  <br>Mota Varachha, Surat,<br> Gujarat 394101
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="before">
+                    <h1>Follow us on Social Media</h1>
+                </div>
+                <div class="content">
+                    <div class="mira">
+                        <div class="back">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="back">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="back">
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                        <div class="back">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer last -->
+    <footer>
+        <div class="footer2">
+            <div class="left">
+                <p>© 2023 Tops Tech. Pvt. Ltd.</p>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href=""> | About Us </a></li>
+                    <li><a href=""> | Work With Us </a></li>
+                    <li><a href=""> | Privacy Policy </a></li>
+                    <li><a href=""> | Terms </a></li>
+                    <li><a href=""> | Vulnerability Disclosure Policy </a></li>
+                    <li><a href=""> | Hall of Fame </a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+
+        $(document).ready(function(){
+        $("#toggle1").click(function(){
+        $(".home1").toggle();
+        });
+        $("#toggle2").click(function(){
+        $(".home2").toggle();
+        });
+        $("#toggle3").click(function(){
+        $(".home3").toggle();
+        });
+        });
+    </script>
+</body>
+
+</html>
